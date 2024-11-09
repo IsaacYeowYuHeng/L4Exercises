@@ -127,23 +127,81 @@
 // });
 
 //===EXERCISE 3C===
-import {View} from "react-native";
+// import {View} from "react-native";
+//
+// const Exercise3C = () => {
+//     return (
+//         <View style={styles.parent}>
+//             <Text style={[styles.child, {backgroundColor: 'powderblue', maxWidth: 90]}>
+//                 Child One
+//             </Text>
+//             <Text style={[styles.child, backgroundColor: 'skyblue']}>
+//                 Child Two
+//             </Text>
+//             <Text style={[styles.child, backgroundColor: 'steelblue', maxHeight: 120]}>
+//                 Child Three
+//             </Text>
+//         </View>
+//     );
+// };
+// export default Exercise3C;
 
-const Exercise3C = () => {
-    return (
-        <View style={styles.parent}>
-            <Text style={[styles.child, {backgroundColor: 'powderblue', maxWidth: 90]}>
-                Child One
-            </Text>
-            <Text style={[styles.child, backgroundColor: 'skyblue']}>
-                Child Two
-            </Text>
-            <Text style={[styles.child, backgroundColor: 'steelblue', maxHeight: 120]}>
-                Child Three
-            </Text>
-        </View>
-    )
-}
+//===EXERCISE 3D===
+//
+// import React from 'react';
+// import {View, Text, StyleSheet} from 'react-native';
+// const styles = StyleSheet.create({
+//     parent: {
+//         flexDirection: 'row',
+//         backgroundColor: '#F5fcff',
+//         borderColor: '#0099AA',
+//         borderWidth: 5,
+//     },
+//     child: {
+//         borderWidth: 2,
+//         textAlign: 'center',
+//         fontSize: 24,
+//     },
+// });
+//
+// const Exercise3D = () => {
+//     return(
+//         <View style={styles.parent}>
+//             <Text style={styles.child, {backgroundColor: 'powderblue', flex: 1}}>
+//                 Child One
+//             </Text>
+//             <Text style={styles.child, {backgroundColor: 'skyblue', flex: 2}}>
+//                 Child Two
+//             </Text>
+//             <Text style={styles.child, {backgroundColor: 'steelblue', flex: 3}}>
+//                 Child Three
+//             </Text>
+//         </View>
+//     );
+// };
+//
+// export default Exercise3D;
+
+//===EXERCISE 3E===
+//
+// const styles = StyleSheet.create({
+//     parent: {
+//         flex: 1,
+//         flexDirection: 'column',
+//         // justifyContent: 'flex-start',
+//         // justifyContent: 'flex-end',
+//         // justifyContent: 'space-around',
+//         justifyContent: 'space-between',
+//         backgroundColor: '#F5fcff',
+//         borderColor: '#0099AA',
+//         borderWidth: 5,
+//     },
+//     child:{
+//         borderWidth: 2,
+//         textAlign: 'center',
+//         fontSize: 24,
+//     },
+// });
 
 //===EXERCISE 4===
 //
